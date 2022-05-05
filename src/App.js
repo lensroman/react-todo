@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { addTodo } from './store/todoSlice'
+import { addTodo } from './store/taskSliceStore'
 
 import TodoList from './components/TodoList'
 import InputField from './components/InputField'
